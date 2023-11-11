@@ -136,14 +136,16 @@ body {
   color: darkgray;
 }
 
-.todo-list__item-label,
-.todo-list__item-checkbox {
-  margin-right: 1rem;
-}
-
 .todo-list__item-label {
   display: flex;
   justify-content: center;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+.todo-list__item-checkbox {
+  margin-right: 1rem;
+  accent-color: hsl(1, 50%, 70%);
 }
 
 .todo-list__delete {
